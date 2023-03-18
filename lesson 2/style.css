@@ -1,0 +1,157 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1080px;
+    margin: auto;
+}
+.header{
+    text-transform: uppercase;
+    border-bottom: 1px solid chocolate;
+    display: table;
+}
+.logo{
+    padding:20px 0 20px 0;
+}
+.menu{
+    display: table-cell;
+    width: 70%;
+    vertical-align: middle;
+}
+.menu-item{
+    width: 100%;
+    text-align: right;
+}
+.menu-items{
+    display: inline-block;
+    list-style: none;
+    padding-left: 45px;
+}
+.link{
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    color: chocolate;
+}
+a:hover{
+    color: blueviolet;
+}
+.main-pic{
+    width: 100%;
+    
+    padding:20px 0;
+}
+.image-explanation{
+    width: 100%;
+    display: flex;
+    position:absolute;
+    bottom: 30%;
+    left:17%; 
+    width: 500px;
+    background-color: black;
+    justify-content: space-between;
+}
+.main-ideas{
+    width: 30%;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.information-block{
+    border-top: 1px solid chocolate;
+    display: flex;
+    justify-content:space-between;
+    padding: 20px 0;
+    border-bottom: 1px solid chocolate;
+}
+.information-header{
+    display: flex;
+    padding-bottom: 15px;
+    border-bottom: 8px solid black;
+    margin-bottom: 20px;
+}
+.information-header::before{
+    content: url('images/arrow_small.png');
+    padding-right: 5px;
+}
+.checkbox{
+    display: flex;
+}
+.checkbox::before{
+    content: url(images/check.png);
+    padding-right: 5px;
+}
+.portfolio-header{
+    padding: 20px 0;
+}
+.portfolio-header::before{
+content: url(images/arrow.png);
+padding-right: 5px;
+}
+.portfolio-pictures{
+    display: flex;
+    justify-content: space-between;
+}
+.portfolio-image{
+    width: 23%;
+}
+.portfolio{
+    padding-bottom: 20px;
+    border-bottom: 1px solid chocolate;
+}
+.blog{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.blog-header{
+    padding-bottom: 20px;
+}
+.blog-header::before{
+    content: url(images/arrow.png);
+    padding-right: 5px;
+}
+.canal-header::before{
+    content: url(images/arrow.png);
+    padding-right: 5px;
+}
+.blog-updates{
+    width: 70%;
+}
+.canals{
+    width: 25%;
+}
+.links{
+    padding-top: 20px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    background-color:gainsboro;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.footer-info{
+    width: 80%;
+}
+.header-links{
+    display: flex;
+    padding-top: 20px;
+}
+.header-link{
+    padding: 0 5px;
+    text-decoration: none;
+}
+.pl-5{
+    padding-left: 5px;
+}
+.cadetblue{
+    color: cadetblue;
+}
